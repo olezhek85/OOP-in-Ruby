@@ -1,6 +1,5 @@
 ## Customize the test machine
 machine:
-
   timezone:
     Europe/Kiev # Set the timezone
 
@@ -12,8 +11,7 @@ machine:
 ## Customize dependencies
 dependencies:
   pre:
-    - gem uninstall bundler # use a custom version of bundler
-    - gem install bundler --pre
+    - gem install bundler
 
   override:
     - bundle install: # note ':' here

@@ -1,0 +1,2 @@
+[![Code Climate](https://codeclimate.com/github/olezhek85/OOP-in-Ruby/badges/gpa.svg)](https://codeclimate.com/github/olezhek85/OOP-in-Ruby)
+[![Test Coverage](https://codeclimate.com/github/olezhek85/OOP-in-Ruby/badges/coverage.svg)](https://codeclimate.com/github/olezhek85/OOP-in-Ruby/coverage)

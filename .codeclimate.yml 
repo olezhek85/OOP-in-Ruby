@@ -1,0 +1,21 @@
+engines:
+  bundler-audit:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+        mass_threshold: 20
+  markdownlint:
+    enabled: true
+  rubocop:
+    enabled: true
+ratings:
+  paths:
+  - Gemfile.lock
+  - "**.rb"
+  - app/**
+  - lib/**
+exclude_paths:
+- spec/**/*

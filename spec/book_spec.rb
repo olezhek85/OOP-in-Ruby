@@ -6,7 +6,7 @@ RSpec.describe Book do
       title: 'Harry Potter and the Cursed Child , Parts I & II',
       author: 'J.K. Rowling, Jack Thorne, John Tiffany'
     }
-    Book.new(*defaults.merge(params).values_at(:title, :author)
+    Book.new(*defaults.merge(params).values_at(:title, :author))
   end
   
   it 'has a title' do

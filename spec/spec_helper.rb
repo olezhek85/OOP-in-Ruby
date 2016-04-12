@@ -1,8 +1,8 @@
 require 'codeclimate-test-reporter'
-require 'simplecov'
+require 'coveralls'
 
+Coveralls.wear!
 CodeClimate::TestReporter.start
-SimpleCov.start
 
 RSpec.configure do |config|
   config.warnings = true

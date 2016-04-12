@@ -2,10 +2,11 @@ class Book
   attr_reader :title, :author
 
   def initialize(title, author)
-    @title, @author = title, author
+    @title = title
+    @author = author
   end
 
   def to_s
-    "#{title}, authored by #{author.name}"
+    "#{title} by #{author.name}"
   end
 end

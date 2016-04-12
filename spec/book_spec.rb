@@ -8,7 +8,7 @@ RSpec.describe Book do
     }
     Book.new(*defaults.merge(params).values_at(:title, :author))
   end
-  
+
   it 'has a title' do
     expect(book(title: 'Me Before You').title).to eq('Me Before You')
   end

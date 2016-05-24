@@ -1,0 +1,178 @@
+--- !ruby/object:Library
+books:
+- !ruby/object:Book
+  title: Anna Karenina
+  author: Leo Tolstoy
+- !ruby/object:Book
+  title: The Things They Carried
+  author: Tim O'Brien
+- !ruby/object:Book
+  title: Invisible Man
+  author: Ralph Ellison
+- !ruby/object:Book
+  title: Advanced OS X Programming
+  author: Mark Dalrymple
+- !ruby/object:Book
+  title: The Cat and the Hat
+  author: Dr. Seuss
+- !ruby/object:Book
+  title: Green Eggs and Ham
+  author: Dr. Seuss
+orders:
+- !ruby/object:Order
+  book: !ruby/object:Book
+    title: Anna Karenina
+    author: Leo Tolstoy
+  reader: !ruby/object:Reader
+    name: First Reader
+    email: r1@gmail.com
+    city: ''
+    street: ''
+    house: ''
+  date: ''
+- !ruby/object:Order
+  book: !ruby/object:Book
+    title: Anna Karenina
+    author: Leo Tolstoy
+  reader: !ruby/object:Reader
+    name: Second Reader
+    email: r2@gmail.com
+    city: ''
+    street: ''
+    house: ''
+  date: ''
+- !ruby/object:Order
+  book: !ruby/object:Book
+    title: Anna Karenina
+    author: Leo Tolstoy
+  reader: !ruby/object:Reader
+    name: Third Reader
+    email: r3@gmail.com
+    city: ''
+    street: ''
+    house: ''
+  date: ''
+- !ruby/object:Order
+  book: !ruby/object:Book
+    title: Anna Karenina
+    author: Leo Tolstoy
+  reader: !ruby/object:Reader
+    name: Fourth Reader
+    email: r4@gmail.com
+    city: ''
+    street: ''
+    house: ''
+  date: ''
+- !ruby/object:Order
+  book: !ruby/object:Book
+    title: The Things They Carried
+    author: Tim O'Brien
+  reader: !ruby/object:Reader
+    name: First Reader
+    email: r1@gmail.com
+    city: ''
+    street: ''
+    house: ''
+  date: ''
+- !ruby/object:Order
+  book: !ruby/object:Book
+    title: Invisible Man
+    author: Ralph Ellison
+  reader: !ruby/object:Reader
+    name: Fourth Reader
+    email: r4@gmail.com
+    city: ''
+    street: ''
+    house: ''
+  date: ''
+- !ruby/object:Order
+  book: !ruby/object:Book
+    title: Advanced OS X Programming
+    author: Mark Dalrymple
+  reader: !ruby/object:Reader
+    name: Fourth Reader
+    email: r4@gmail.com
+    city: ''
+    street: ''
+    house: ''
+  date: ''
+- !ruby/object:Order
+  book: !ruby/object:Book
+    title: Advanced OS X Programming
+    author: Mark Dalrymple
+  reader: !ruby/object:Reader
+    name: Fifth Reader
+    email: r5@gmail.com
+    city: ''
+    street: ''
+    house: ''
+  date: ''
+- !ruby/object:Order
+  book: !ruby/object:Book
+    title: Advanced OS X Programming
+    author: Mark Dalrymple
+  reader: !ruby/object:Reader
+    name: Fourth Reader
+    email: r4@gmail.com
+    city: ''
+    street: ''
+    house: ''
+  date: ''
+- !ruby/object:Order
+  book: !ruby/object:Book
+    title: Advanced OS X Programming
+    author: Mark Dalrymple
+  reader: !ruby/object:Reader
+    name: Third Reader
+    email: r3@gmail.com
+    city: ''
+    street: ''
+    house: ''
+  date: ''
+readers:
+- !ruby/object:Reader
+  name: First Reader
+  email: r1@gmail.com
+  city: ''
+  street: ''
+  house: ''
+- !ruby/object:Reader
+  name: Second Reader
+  email: r2@gmail.com
+  city: ''
+  street: ''
+  house: ''
+- !ruby/object:Reader
+  name: Third Reader
+  email: r3@gmail.com
+  city: ''
+  street: ''
+  house: ''
+- !ruby/object:Reader
+  name: Fourth Reader
+  email: r4@gmail.com
+  city: ''
+  street: ''
+  house: ''
+- !ruby/object:Reader
+  name: Fifth Reader
+  email: r5@gmail.com
+  city: ''
+  street: ''
+  house: ''
+authors:
+- !ruby/object:Author
+  name: Leo Tolstoy
+  bio: ''
+- !ruby/object:Author
+  name: Tim O'Brien
+  bio: ''
+- !ruby/object:Author
+  name: Ralph Ellison
+  bio: ''
+- !ruby/object:Author
+  name: Mark Dalrymple
+  bio: ''
+- !ruby/object:Author
+  name: Dr. Seuss
+  bio: ''

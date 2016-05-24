@@ -1,7 +1,7 @@
 class Author
-  attr_reader :name, :bio
-  
-  def initialize(name, bio)
+  attr_accessor :name, :bio
+
+  def initialize(name, bio = '')
     @name = name
     @bio = bio
   end

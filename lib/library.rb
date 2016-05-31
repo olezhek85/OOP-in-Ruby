@@ -24,7 +24,7 @@ class Library
 
   def how_much_readers_ordered_popular_books(cnt = 3)
     @orders.group_by(&:book).max_by(cnt) { |_book, order| order.size }
-          .map { |_book, order| order.first.reader }.uniq.count
+           .map { |_book, order| order.first.reader }.uniq.count
   end
 
   def save_all_library_data_to_file(file_name = 'library.yml')
